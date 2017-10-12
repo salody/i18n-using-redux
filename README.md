@@ -11,6 +11,6 @@
 
 4. npm start启动项目。
 
-5. 在http://localhost:3000/中查看项目。
+5. 在浏览器中输入localhost:3000中查看项目。
 
 **enjoy!**   ​
