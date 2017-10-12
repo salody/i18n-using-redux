@@ -13,20 +13,26 @@ class Login extends Component {
     const {strings, dispatch} = this.props;
     return (
       <div>
-        <ul>
-          <li onClick={() => {
+        <h3>{strings.Base.language}</h3>
+          <span
+            onClick={() => {
             dispatch(changeLanguage('zhcn'))
           }}>
             {strings.Base.chinese}
-          </li>
-          <li onClick={() => {
+          </span>
+          <span
+            onClick={() => {
             dispatch(changeLanguage('en'))
-          }}>
+          }}
+            style={{marginLeft: 10}}
+          >
             {strings.Base.english}
-          </li>
-        </ul>
-        <p>{strings.Login.namePlaceholder}</p>
-        <p>{strings.Login.buttonLabel}</p>
+          </span>
+
+        <div>
+          <p>{strings.Login.namePlaceholder}</p>
+          <p>{strings.Login.buttonLabel}</p>
+        </div>
       </div>
     );
   }

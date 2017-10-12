@@ -1,7 +1,8 @@
 export default {
   Base: {
     english: 'english',
-    chinese: 'chinese'
+    chinese: 'chinese',
+    language: 'Please choose your language'
   },
   Header: {
     subtitle: 'A good way of ranting in an Agile way',

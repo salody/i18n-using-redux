@@ -1,7 +1,8 @@
 export default {
   Base: {
     english: '英文',
-    chinese: '中文'
+    chinese: '中文',
+    language: '请选择您的语言'
   },
   Header: {
     subtitle: '驾驭敏捷方式的好方法',
