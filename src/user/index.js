@@ -16,15 +16,17 @@ class Login extends Component {
         <ul>
           <li onClick={() => {
             dispatch(changeLanguage('zhcn'))
-          }}>中文
+          }}>
+            {strings.Base.chinese}
           </li>
           <li onClick={() => {
             dispatch(changeLanguage('en'))
-          }}>英文
+          }}>
+            {strings.Base.english}
           </li>
         </ul>
-        <p>{strings.namePlaceholder}</p>
-        <p>{strings.buttonLabel}</p>
+        <p>{strings.Login.namePlaceholder}</p>
+        <p>{strings.Login.buttonLabel}</p>
       </div>
     );
   }

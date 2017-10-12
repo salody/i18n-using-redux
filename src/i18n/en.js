@@ -1,4 +1,8 @@
 export default {
+  Base: {
+    english: 'english',
+    chinese: 'chinese'
+  },
   Header: {
     subtitle: 'A good way of ranting in an Agile way',
     logout: 'Logout',

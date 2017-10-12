@@ -15,7 +15,10 @@ export default function translate(key) {
 
     class TranslationComponent extends React.Component {
       render() {
-        const strings = languages[this.props.currentLanguage][key];
+        let strings = {
+          Base: languages[this.props.currentLanguage].Base
+        };
+        strings[key] = languages[this.props.currentLanguage][key];
         const merged = {
           ...this.props.strings,
           ...strings

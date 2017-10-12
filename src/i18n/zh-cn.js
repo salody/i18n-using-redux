@@ -1,4 +1,8 @@
 export default {
+  Base: {
+    english: '英文',
+    chinese: '中文'
+  },
   Header: {
     subtitle: '驾驭敏捷方式的好方法',
     logout: '注销',
