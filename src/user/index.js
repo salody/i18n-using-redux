@@ -14,20 +14,20 @@ class Login extends Component {
     return (
       <div>
         <h3>{strings.Base.language}</h3>
-          <span
+          <button
             onClick={() => {
             dispatch(changeLanguage('zhcn'))
           }}>
             {strings.Base.chinese}
-          </span>
-          <span
+          </button>
+          <button
             onClick={() => {
             dispatch(changeLanguage('en'))
           }}
             style={{marginLeft: 10}}
           >
             {strings.Base.english}
-          </span>
+          </button>
 
         <div>
           <p>{strings.Login.namePlaceholder}</p>
